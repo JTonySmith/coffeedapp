@@ -1,4 +1,4 @@
-from django.conf.urls import include, url
+from django.conf.urls import patterns, include, url
 import core.views as coreviews
 
 urlpatterns = patterns('',
